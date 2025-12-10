@@ -32,7 +32,6 @@ async function grabCurrentConditions() {
     countryDisplay.innerText = location;
     temperatureDisplay.innerText = `${currCondition.temp}${degUnit}`;
     conditionDisplay.innerText = currCondition.conditions;
-    console.log(currCondition);
 }
 
 grabCurrentConditions();
